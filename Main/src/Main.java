@@ -1,5 +1,3 @@
-import java.util.stream.StreamSupport;
-
 public class Main {
     public static void main (String[] args) {
 
@@ -10,5 +8,11 @@ public class Main {
         System.out.println("Age: " + student.age);
         System.out.println("Average Mark: " + student.averageMark);
         System.out.println("Registered: " + student.isRegistered);
+
+        //Exercise 1.2: Shopping total
+        ShoppingTotal shoppingTotal = new ShoppingTotal();
+
+        shoppingTotal.total();
+        shoppingTotal.discountAmount();
     }
 }

@@ -28,5 +28,9 @@ public class Main {
         //Exercise 2.3: Number analysis
         NumberAnalysis numberAnalysis = new NumberAnalysis();
         numberAnalysis.analyse();
+
+        //Exercise 2.4: Login check
+        LoginCheck loginCheck = new LoginCheck();
+        loginCheck.checkCredentials();
     }
 }

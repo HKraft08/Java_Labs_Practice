@@ -1,5 +1,3 @@
-import com.sun.tools.jconsole.JConsoleContext;
-
 import java.util.Arrays;
 
 public class ArrayStatistics {

@@ -36,10 +36,14 @@ public class Main {
         StudentMarks studentMarks = new StudentMarks();
         studentMarks.displayMarks();
 
-         */
-
         //Exercise 3.2: Highest and lowest values
         ArrayStatistics arrayStatistics = new ArrayStatistics();
         arrayStatistics.arrayAnalysis();
+
+         */
+
+        //Exercise 3.3: Search an array
+        ArraySearch arraySearch = new ArraySearch();
+        arraySearch.findTargetIndex();
     }
 }

@@ -24,5 +24,9 @@ public class Main {
         //Exercise 2.2: Grade calculator
         GradeCalculator gradeCalculator = new GradeCalculator();
         gradeCalculator.determineGrade();
+
+        //Exercise 2.3: Number analysis
+        NumberAnalysis numberAnalysis = new NumberAnalysis();
+        numberAnalysis.analyse();
     }
 }

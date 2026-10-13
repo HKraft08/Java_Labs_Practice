@@ -45,5 +45,9 @@ public class Main {
         //Exercise 3.3: Search an array
         ArraySearch arraySearch = new ArraySearch();
         arraySearch.findTargetIndex();
+
+        //Exercise 3.4: Separate even and odd numbers
+        EvenOddArray evenOddArray = new EvenOddArray();
+        evenOddArray.splitEvenAndOdd();
     }
 }

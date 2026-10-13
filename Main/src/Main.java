@@ -20,5 +20,9 @@ public class Main {
         //Exercise 2.1: Pass or fail
         PassOrFail passOrFail = new PassOrFail();
         passOrFail.validMark();
+
+        //Exercise 2.2: Grade calculator
+        GradeCalculator gradeCalculator = new GradeCalculator();
+        gradeCalculator.determineGrade();
     }
 }

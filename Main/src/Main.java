@@ -32,10 +32,14 @@ public class Main {
         LoginCheck loginCheck = new LoginCheck();
         loginCheck.checkCredentials();
 
-         */
-
         //Exercise 3.1: Store student marks
         StudentMarks studentMarks = new StudentMarks();
         studentMarks.displayMarks();
+
+         */
+
+        //Exercise 3.2: Highest and lowest values
+        ArrayStatistics arrayStatistics = new ArrayStatistics();
+        arrayStatistics.arrayAnalysis();
     }
 }

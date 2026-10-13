@@ -15,7 +15,6 @@ public class Main {
         //Exercise 1.3: Temperature conversion
         TemperatureConverter temperatureConverter = new TemperatureConverter();
         temperatureConverter.convertTemp();
-         */
 
         //Exercise 2.1: Pass or fail
         PassOrFail passOrFail = new PassOrFail();
@@ -32,5 +31,11 @@ public class Main {
         //Exercise 2.4: Login check
         LoginCheck loginCheck = new LoginCheck();
         loginCheck.checkCredentials();
+
+         */
+
+        //Exercise 3.1: Store student marks
+        StudentMarks studentMarks = new StudentMarks();
+        studentMarks.displayMarks();
     }
 }

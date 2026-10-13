@@ -2,17 +2,17 @@ public class Main {
     public static void main (String[] args) {
 
         //Exercise 1.1: Student details
-        StudentDetails student = new StudentDetails();
-
-        System.out.println("Student name: " + student.name);
-        System.out.println("Age: " + student.age);
-        System.out.println("Average Mark: " + student.averageMark);
-        System.out.println("Registered: " + student.isRegistered);
+        StudentDetails studentDetails = new StudentDetails();
+        studentDetails.displayStudentDetails();
 
         //Exercise 1.2: Shopping total
         ShoppingTotal shoppingTotal = new ShoppingTotal();
 
         shoppingTotal.total();
         shoppingTotal.discountAmount();
+
+        //Exercise 1.3: Temperature conversion
+        TemperatureConverter temperatureConverter = new TemperatureConverter();
+        temperatureConverter.convertTemp();
     }
 }

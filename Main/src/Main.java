@@ -1,6 +1,7 @@
 public class Main {
     public static void main (String[] args) {
 
+        /*
         //Exercise 1.1: Student details
         StudentDetails studentDetails = new StudentDetails();
         studentDetails.displayStudentDetails();
@@ -14,5 +15,10 @@ public class Main {
         //Exercise 1.3: Temperature conversion
         TemperatureConverter temperatureConverter = new TemperatureConverter();
         temperatureConverter.convertTemp();
+         */
+
+        //Exercise 2.1: Pass or fail
+        PassOrFail passOrFail = new PassOrFail();
+        passOrFail.validMark();
     }
 }

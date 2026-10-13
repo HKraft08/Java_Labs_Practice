@@ -40,8 +40,6 @@ public class Main {
         ArrayStatistics arrayStatistics = new ArrayStatistics();
         arrayStatistics.arrayAnalysis();
 
-         */
-
         //Exercise 3.3: Search an array
         ArraySearch arraySearch = new ArraySearch();
         arraySearch.findTargetIndex();
@@ -49,5 +47,11 @@ public class Main {
         //Exercise 3.4: Separate even and odd numbers
         EvenOddArray evenOddArray = new EvenOddArray();
         evenOddArray.splitEvenAndOdd();
+
+         */
+
+        //Exercise 3.5: Reverse an array
+        ReverseArray reverseArray = new ReverseArray();
+        reverseArray.reverseArray();
     }
 }

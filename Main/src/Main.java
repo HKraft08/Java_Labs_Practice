@@ -48,10 +48,19 @@ public class Main {
         EvenOddArray evenOddArray = new EvenOddArray();
         evenOddArray.splitEvenAndOdd();
 
-         */
-
         //Exercise 3.5: Reverse an array
         ReverseArray reverseArray = new ReverseArray();
         reverseArray.reverseArray();
+
+         */
+
+        //Exercise 4.1: Student class
+        Student student1 = new Student("Hishaam", "123456", 96.5);
+        Student student2 = new Student("John", "654321", 49.7);
+
+        student1.displayDetails();
+        student1.hasPassed();
+        student2.displayDetails();
+        student2.hasPassed();
     }
 }

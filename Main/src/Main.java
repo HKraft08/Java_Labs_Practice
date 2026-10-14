@@ -61,8 +61,6 @@ public class Main {
         student2.displayDetails();
         student2.hasPassed();
 
-         */
-
         //Exercise 4.2: Bank account
         BankAccount bankAccount = new BankAccount("Hishaam", 123456789, 12000.56);
 
@@ -72,6 +70,16 @@ public class Main {
 
         bankAccount.withdraw(3000.54);
         bankAccount.getBalance();
+
+         */
+
+        //Exercise 4.3: Product inventory
+        Product product = new Product(12, "Redbull", 25, 255);
+
+        product.displayProductDetails();
+        product.addStock(34);
+        product.reduceStock(26);
+        product.calculateStockValue();
 
     }
 }

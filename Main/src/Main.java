@@ -52,8 +52,6 @@ public class Main {
         ReverseArray reverseArray = new ReverseArray();
         reverseArray.reverseArray();
 
-         */
-
         //Exercise 4.1: Student class
         Student student1 = new Student("Hishaam", "123456", 96.5);
         Student student2 = new Student("John", "654321", 49.7);
@@ -62,5 +60,18 @@ public class Main {
         student1.hasPassed();
         student2.displayDetails();
         student2.hasPassed();
+
+         */
+
+        //Exercise 4.2: Bank account
+        BankAccount bankAccount = new BankAccount("Hishaam", 123456789, 12000.56);
+
+        bankAccount.getBalance();
+        bankAccount.deposit(4567.98);
+        bankAccount.getBalance();
+
+        bankAccount.withdraw(3000.54);
+        bankAccount.getBalance();
+
     }
 }

@@ -71,8 +71,6 @@ public class Main {
         bankAccount.withdraw(3000.54);
         bankAccount.getBalance();
 
-         */
-
         //Exercise 4.3: Product inventory
         Product product = new Product(12, "Redbull", 25, 255);
 
@@ -81,5 +79,16 @@ public class Main {
         product.reduceStock(26);
         product.calculateStockValue();
 
+         */
+
+        //Exercise 4.4: Rectangle
+        Rectangle rectangle1 = new Rectangle(23.8, 27.6);
+        Rectangle rectangle2 = new Rectangle(12.2, 15.4);
+
+        rectangle1.area();
+        rectangle1.perimeter();
+
+        rectangle2.area();
+        rectangle2.perimeter();
     }
 }

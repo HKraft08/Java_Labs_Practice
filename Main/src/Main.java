@@ -106,8 +106,6 @@ public class Main {
         studentResults1.countPassed();
         studentResults1.highestAverage();
 
-         */
-
         //Exercise 5.2: Mini point-of-sale system
         ShoppingCart shoppingCart1 = new ShoppingCart("Redbull", 25, 100);
         ShoppingCart shoppingCart2 = new ShoppingCart("Scones", 11.50, 60);
@@ -123,5 +121,24 @@ public class Main {
         shoppingCart1.displaySubTotal();
         shoppingCart1.calculateDiscount();
         shoppingCart1.displayFinalTotal();
+
+         */
+
+        //Exercise 5.3: Employee salary review
+        EmployeeSalaryReport employeeSalaryReport1 = new EmployeeSalaryReport(1234, "Makwa", 75000);
+        EmployeeSalaryReport employeeSalaryReport2 = new EmployeeSalaryReport(4321, "Lona", 55000);
+        EmployeeSalaryReport employeeSalaryReport3 = new EmployeeSalaryReport(5678, "Hishaam", 80000);
+        EmployeeSalaryReport employeeSalaryReport4 = new EmployeeSalaryReport(9879, "John", 9878.99);
+        EmployeeSalaryReport employeeSalaryReport5 = new EmployeeSalaryReport(3754, "Alice", 15460.65);
+
+        EmployeeSalaryReport[] employees = {employeeSalaryReport1, employeeSalaryReport2, employeeSalaryReport3, employeeSalaryReport4, employeeSalaryReport5};
+
+        for (int i = 0; i < employees.length; i++) {
+            employees[i].displayEmployeeDetails();
+            employees[i].determineThreshold();
+        }
+
+        employeeSalaryReport1.determineAverageSalary(employees);
+        employeeSalaryReport1.determineHighestSalary(employees);
     }
 }

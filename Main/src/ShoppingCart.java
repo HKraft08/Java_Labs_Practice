@@ -24,8 +24,10 @@ public class ShoppingCart {
 
     void lineTotal() {
         double lineTotal = this.price * this.productQuantity;
+
         System.out.println("line total: " + this.productName + " x " + this.productQuantity + " x R" + this.price
                 + " (R" + lineTotal + ")");
+
         subTotal = subTotal + lineTotal;
     }
 

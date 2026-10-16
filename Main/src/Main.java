@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Main {
     public static void main (String[] args) {
 
@@ -91,8 +89,6 @@ public class Main {
         rectangle2.area();
         rectangle2.perimeter();
 
-         */
-
         //Exercise 5.1: Student result system
         StudentResults studentResults1 = new StudentResults(1234, "Makwa", new double[] {10, 55.5, 30.4});
         StudentResults studentResults2 = new StudentResults(5432, "Lona", new double[] {65.9, 80, 78.8});
@@ -110,5 +106,22 @@ public class Main {
         studentResults1.countPassed();
         studentResults1.highestAverage();
 
+         */
+
+        //Exercise 5.2: Mini point-of-sale system
+        ShoppingCart shoppingCart1 = new ShoppingCart("Redbull", 25, 100);
+        ShoppingCart shoppingCart2 = new ShoppingCart("Scones", 11.50, 60);
+        ShoppingCart shoppingCart3 = new ShoppingCart("Burger", 99.99, 10);
+        ShoppingCart shoppingCart4 = new ShoppingCart("Monster", 24, 80);
+
+        ShoppingCart[] items = {shoppingCart1, shoppingCart2, shoppingCart3, shoppingCart4};
+
+        for (int i = 0; i < items.length; i++) {
+            items[i].lineTotal();
+        }
+
+        shoppingCart1.displaySubTotal();
+        shoppingCart1.calculateDiscount();
+        shoppingCart1.displayFinalTotal();
     }
 }

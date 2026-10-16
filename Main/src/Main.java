@@ -168,5 +168,28 @@ public class Main {
 
          */
 
+        /*
+        Exercise 6.2: Array index
+
+        int[] numbers = {10, 20, 30};
+
+        for (int i = 0; i <= numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+
+        The error above is that the loop will continue while i is less than or equal to the length of
+        the array. If we loop until the exact length of the array this will cause an error because
+        the index of the array will no longer be accessible as it will be out of bounds since array
+        indexes start at 0
+
+        The correct code is as follows:
+
+        int[] numbers = {10, 20, 30};
+
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+         */
+
     }
 }

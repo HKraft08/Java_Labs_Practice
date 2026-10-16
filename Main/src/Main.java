@@ -122,8 +122,6 @@ public class Main {
         shoppingCart1.calculateDiscount();
         shoppingCart1.displayFinalTotal();
 
-         */
-
         //Exercise 5.3: Employee salary review
         EmployeeSalaryReport employeeSalaryReport1 = new EmployeeSalaryReport(1234, "Makwa", 75000);
         EmployeeSalaryReport employeeSalaryReport2 = new EmployeeSalaryReport(4321, "Lona", 55000);
@@ -140,5 +138,35 @@ public class Main {
 
         employeeSalaryReport1.determineAverageSalary(employees);
         employeeSalaryReport1.determineHighestSalary(employees);
+
+         */
+
+        /*
+        Exercise 6.1: Incorrect string comparison
+        Explain why the following code may print Different text, then correct it to compare String contents.
+        String first = new String("Java");
+        String second = new String("Java");
+
+        if (first == second) {
+            System.out.println("Same text");
+        } else {
+            System.out.println("Different text");
+        }
+
+        The following code may print "Different text" as it is comparing text using "==" and not the
+        .equals() method. The "==" compares object references and not the actual value of the strings
+
+        The correction is as follows:
+        String first = new String("Java");
+        String second = new String("Java");
+
+        if (first.equals(second)) {
+            System.out.println("Same text");
+        } else {
+            System.out.println("Different text");
+        }
+
+         */
+
     }
 }

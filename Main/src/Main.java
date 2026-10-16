@@ -143,7 +143,9 @@ public class Main {
 
         /*
         Exercise 6.1: Incorrect string comparison
+
         Explain why the following code may print Different text, then correct it to compare String contents.
+
         String first = new String("Java");
         String second = new String("Java");
 
@@ -171,6 +173,8 @@ public class Main {
         /*
         Exercise 6.2: Array index
 
+        Explain the error and correct the loop condition.
+
         int[] numbers = {10, 20, 30};
 
         for (int i = 0; i <= numbers.length; i++) {
@@ -191,5 +195,29 @@ public class Main {
         }
          */
 
+        /*
+        Exercise 6.3: Incorrect grade conditions
+
+        Rewrite the conditions so a mark of 85 displays Distinction.
+
+        int mark = 85;
+
+        if (mark >= 50) {
+            System.out.println("Pass");
+        } else if (mark >= 80) {
+            System.out.println("Distinction");
+        }
+
+        Correction:
+
+        int mark = 85;
+
+        if (mark >= 50) {
+            System.out.println("Pass");
+        } else if (mark >= 85 && mark <= 100) {
+            System.out.println("Distinction");
+        }
+
+         */
     }
 }

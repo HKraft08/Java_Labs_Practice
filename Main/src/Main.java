@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main (String[] args) {
 
@@ -79,8 +81,6 @@ public class Main {
         product.reduceStock(26);
         product.calculateStockValue();
 
-         */
-
         //Exercise 4.4: Rectangle
         Rectangle rectangle1 = new Rectangle(23.8, 27.6);
         Rectangle rectangle2 = new Rectangle(12.2, 15.4);
@@ -90,5 +90,25 @@ public class Main {
 
         rectangle2.area();
         rectangle2.perimeter();
+
+         */
+
+        //Exercise 5.1: Student result system
+        StudentResults studentResults1 = new StudentResults(1234, "Makwa", new double[] {10, 55.5, 30.4});
+        StudentResults studentResults2 = new StudentResults(5432, "Lona", new double[] {65.9, 80, 78.8});
+        StudentResults studentResults3 = new StudentResults(9789, "Ditebogo", new double[] {89, 78.5, 80.5});
+
+        studentResults1.displayDetails();
+        studentResults1.average();
+
+        studentResults2.displayDetails();
+        studentResults2.average();
+
+        studentResults3.displayDetails();
+        studentResults3.average();
+
+        studentResults1.countPassed();
+        studentResults1.highestAverage();
+
     }
 }
